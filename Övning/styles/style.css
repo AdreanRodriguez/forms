@@ -1,0 +1,70 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(235, 231, 226);
+}
+
+.form-wrapper {
+    background-color: white;
+    border-radius: 2rem;
+    max-width: 1000px;
+    margin: 3rem auto;
+}
+
+.form-container {
+    border-radius: 2rem;
+    padding: 2rem;
+    box-shadow: 4px 4px 2px 2px rgb(75, 75, 75, 0.3);
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form__form-inner {
+    gap: 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.form__input-group {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    border: 2rem;
+}
+
+input, 
+select {
+    padding: .5rem;
+    border-radius: 2rem;
+    margin-top: .5rem;
+    border: 2px solid black;
+}
+
+label {
+    font-size: 1.5rem;
+}
+
+#cv, 
+#letter {
+    border: 2px solid black;
+}
+
+input[type="submit" i] {
+    background-color: #f00000;
+    width: 15rem;
+    color: white;
+    padding: .5rem;
+    align-self: flex-end;
+    margin-top: 2rem;
+}
+
+input[type="file" i] {
+    padding: .5rem;
+}
